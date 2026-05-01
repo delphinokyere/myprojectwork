@@ -1,0 +1,11 @@
+{
+  "name": "UPSA Student Marketplace",
+  "description": "A dedicated e-commerce platform for University of Professional Studies, Accra (UPSA) student entrepreneurs to list products and for students to buy securely using their institutional credentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "Multi-user Authentication",
+    "Inventory Management",
+    "Shopping Cart",
+    "Role-based Access Control"
+  ]
+}

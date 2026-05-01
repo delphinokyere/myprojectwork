@@ -1,0 +1,10 @@
+services:
+  - type: static
+    name: upsa-marketplace
+    env: static
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
